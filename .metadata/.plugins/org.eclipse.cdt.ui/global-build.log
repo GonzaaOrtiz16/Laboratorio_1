@@ -1,0 +1,6 @@
+17:58:12 **** Rebuild of configuration Debug for project aa ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aa.o" "..\\src\\aa.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\unt.o" "..\\src\\unt.c" 
+gcc -o aa.exe "src\\aa.o" "src\\unt.o" 
+Info: Nothing to build for aa
